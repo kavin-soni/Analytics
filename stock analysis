@@ -1,0 +1,48 @@
+
+
+import pandas as pd
+pd.core.common.is_list_like = pd.api.types.is_list_like
+from pandas_datareader import data, wb
+
+import numpy as np
+import datetime
+import matplotlib as plt
+import seaborn as sns
+sns.set_style('whitegrid')
+%matplotlib inline
+
+start = datetime.datetime(2006, 1, 1)
+end = datetime.datetime(2018, 1, 1)
+
+# Bank of America
+BAC = data.DataReader("BAC", 'quandl', start, end)
+BAC = BAC.filter(['Open','High','Low','Close','Volume'], axis=1)
+BAC = BAC.reset_index().sort_values('Date').set_index('Date')
+# CitiGroup
+C = data.DataReader("C", 'quandl', start, end)
+C = C.filter(['Open','High','Low','Close','Volume'], axis=1)
+C = C.reset_index().sort_values('Date').set_index('Date')
+# Goldman Sachs
+GS = data.DataReader("GS", 'quandl', start, end)
+GS = GS.filter(['Open','High','Low','Close','Volume'], axis=1)
+GS = GS.reset_index().sort_values('Date').set_index('Date')
+# JPMorgan Chase 
+JPM = data.DataReader("JPM", 'quandl', start, end)
+JPM = JPM.filter(['Open','High','Low','Close','Volume'], axis=1)
+JPM = JPM.reset_index().sort_values('Date').set_index('Date')
+# Morgan Stanley
+MS = data.DataReader("MS", 'quandl', start, end)
+MS = MS.filter(['Open','High','Low','Close','Volume'], axis=1)
+MS = MS.reset_index().sort_values('Date').set_index('Date')
+# Wells Fargo
+WFC = data.DataReader("WFC", 'quandl', start, end)
+WFC = WFC.filter(['Open','High','Low','Close','Volume'], axis=1)
+WFC = WFC.reset_index().sort_values('Date').set_index('Date')
+
+tickers = ['BAC', 'C', 'GS', 'JPM', 'MS', 'WFC']
+bank_stocks = pd.concat([BAC,C,GS,JPM,MS,WFC],axis=1,keys=tickers)
+bank_stocks.columns.names = ['Bank Ticker','Stock Info']
+bank_stocks.head()
+
+bank_stocks.to_csv('stocks.csv')
+
