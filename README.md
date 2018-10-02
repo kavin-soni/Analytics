@@ -14,7 +14,7 @@ __[Stock Analysis from Quandl](https://github.com/kavin-soni/Analytics/blob/mast
  
 - Logistic Regression classification predicting likelihood of a user clicking on an ad
  
- __[PCA with logistic regression ](https://github.com/kavin-soni/Analytics/blob/master/Linear%20regression.ipynb)__
+ __[PCA with logistic regression ](https://github.com/kavin-soni/Analytics/blob/master/PCA%20with%20logistic%20regression%20.ipynb)__
  
 - Use logistic regression with raw data, standardized data, and PCA transformed data. Then comparing the model performance.
 
