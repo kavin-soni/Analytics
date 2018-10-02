@@ -12,7 +12,7 @@ __[Stock Analysis from Quandl](https://github.com/kavin-soni/Analytics/blob/mast
  
  __[Storytelling with logistic regression](https://github.com/kavin-soni/Analytics/blob/master/Storytelling%20with%20Logistic%20Regression.ipynb)__
  
-- Logistic Regression classification predicting likelihood of a user clicking on an ad
+- Logistic Regression classification predicting likelihood of a user clicking on an ad.
  
  __[PCA with logistic regression ](https://github.com/kavin-soni/Analytics/blob/master/PCA%20with%20logistic%20regression%20.ipynb)__
  
