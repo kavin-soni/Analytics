@@ -2,6 +2,8 @@
 
 The essence of analytics lies in transforming seemingly inexplicable numbers, secluded in enigmatic csv sheets into actionable insights. The prowess of data science allows us to make data-driven business decisions. With the amount of data in our possession today, we are at a turning point in driving businesses capabilities. 
 
+Also, chek out my Tableau public profile. (__[Click here](https://public.tableau.com/profile/kavin.soni#!/)__)
+
 __[Stock Analysis from Quandl](https://github.com/kavin-soni/Analytics/blob/master/Stock%20Analysis%20from%20Quandl.ipynb)__
 
 - Exploratory data analysis to identify the trend in stocks prices of leading banks over the years.
