@@ -2,7 +2,7 @@
 
 The essence of analytics lies in transforming seemingly inexplicable numbers, secluded in enigmatic csv sheets into actionable insights. The prowess of data science allows us to make data-driven business decisions. With the amount of data in our possession today, we are at a turning point in driving businesses capabilities. 
 
-(_Please click try again to open the notebook directly if the link does not work_)
+(_Please click try again or open the notebook directly if the link does not work_)
 
 Also, chek out my Tableau public profile. (__[Click here](https://public.tableau.com/profile/kavin.soni#!/)__)
 
