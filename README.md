@@ -4,7 +4,7 @@ The essence of analytics lies in transforming seemingly inexplicable numbers, se
 
 (_Please click try again or open the notebook directly if the link does not work_)
 
-Also, chek out my Tableau public profile. (__[Click here](https://public.tableau.com/profile/kavin.soni#!/)__)
+Also, check out my Tableau public profile. (__[Click here](https://public.tableau.com/profile/kavin.soni#!/)__)
 
 __[Stock Analysis from Quandl](https://github.com/kavin-soni/Analytics/blob/master/Stock%20Analysis%20from%20Quandl.ipynb)__
 
